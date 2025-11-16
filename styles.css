@@ -76,3 +76,14 @@ body{
 @media(max-width:600px){
   .products-grid{ grid-template-columns:repeat(2,1fr); }
 }
+
+
+.discount-area input{
+  padding:6px 8px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  min-width:180px;
+}
+.discount-area button{ height:36px; }
+#discount-message{ color:#1c7; }
+.totals .total{ margin:6px 0; }

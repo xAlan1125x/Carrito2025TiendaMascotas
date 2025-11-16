@@ -10,7 +10,7 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="site-title">Mi Tienda</h1>
+    <h1 class="site-title">PetShot</h1>
     <div class="cart-toggle" id="open-cart" title="Abrir carrito">
       🛒 Carrito <span id="cart-count" class="badge">0</span>
     </div>
@@ -27,13 +27,29 @@
       <ul id="carrito" class="cart-list"></ul>
 
       <div class="cart-actions">
-        <p class="total">Total: <span id="total">-</span></p>
-        <div class="buttons">
-          <button id="vaciar" class="btn btn-danger">Vaciar carrito</button>
-          <button id="confirmar" class="btn btn-success">Confirmar compra</button>
-          <button id="cerrar-cart" class="btn btn-secondary">Cerrar</button>
-        </div>
-      </div>
+  <div class="discount-area">
+    <label for="discount-code"><strong>Código de descuento</strong></label>
+    <div style="display:flex; gap:8px; margin-top:6px;">
+      <input id="discount-code" type="text" placeholder="Ingresa código" />
+      <button id="apply-discount" class="btn btn-outline-primary">Aplicar</button>
+      <button id="remove-discount" class="btn btn-outline-secondary" style="display:none;">Quitar</button>
+    </div>
+    <p id="discount-message" style="margin:6px 0 0; color:#2b6; font-size:14px;"></p>
+  </div>
+
+  <div class="totals">
+    <p class="total">Subtotal: <span id="subtotal">-</span></p>
+    <p class="total">Descuento: <span id="discount-amount">-</span></p>
+    <p class="total"><strong>Total: <span id="total">-</span></strong></p>
+  </div>
+
+  <div class="buttons">
+    <button id="vaciar" class="btn btn-danger">Vaciar carrito</button>
+    <button id="confirmar" class="btn btn-success">Confirmar compra</button>
+    <button id="cerrar-cart" class="btn btn-secondary">Cerrar</button>
+  </div>
+</div>
+
     </section>
   </main>
 
