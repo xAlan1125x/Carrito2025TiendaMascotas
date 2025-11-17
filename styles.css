@@ -1,12 +1,12 @@
 :root{
   --gap: 12px;
-  --card-bg: #fff;
+  --card-bg: hsl(44, 51%, 74%);
   --muted: #666;
 }
 body{
   font-family: Inter, system-ui, Arial, sans-serif;
   margin:0;
-  background:#f6f7fb;
+  background:#e6ad11;
   color:#222;
 }
 .header{
@@ -14,13 +14,13 @@ body{
   justify-content:space-between;
   align-items:center;
   padding:16px 24px;
-  background:#1f6feb;
-  color:white;
+  background:#ad830d;
+  color:#ffffff;
 }
 .site-title{ margin:0; font-size:20px; }
 .cart-toggle{ cursor:pointer; background:rgba(255,255,255,0.1); padding:8px 12px; border-radius:8px; }
 .badge{
-  background:#ffde59;
+  background:#f50505;
   color:#111;
   padding:2px 8px;
   border-radius:999px;
@@ -53,7 +53,7 @@ body{
 /* Carrito */
 .cart-section{
   margin-top:28px;
-  background:#fff;
+  background:#e6ad11;
   padding:12px;
   border-radius:10px;
   box-shadow:0 6px 18px rgba(20,30,50,0.06);
