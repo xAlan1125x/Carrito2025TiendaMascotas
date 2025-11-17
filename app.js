@@ -1,9 +1,18 @@
 // === Datos de ejemplo (puedes cambiarlos) ===
+// === Datos de ejemplo (actualizados) ===
 const productos = [
   { id: 1, nombre: "Plato de comida", precio: 5000, img: "https://imgs.search.brave.com/WJeKcnOeqsp1PvWvsp3L0ePMtwHLK74aLQIU2WixmkQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxdHNBYzVrZlZM/LmpwZw" },
   { id: 2, nombre: "Rascador mediano", precio: 15000, img: "https://imgs.search.brave.com/tSd5X9wjdDnEuKoXpKMPdtc4L7dlxJuUaHORsg_j8Ok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxREVMYm44aEZM/LmpwZw" },
   { id: 3, nombre: "Alimento CatChow x 15kg", precio: 60000, img: "https://imgs.search.brave.com/PkK1GogQB4hYLD08CmJ_W5jxR2uTKsZjlwz8NgrTyzY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lbG11/bmRvZGVsYXNtYXNj/b3Rhcy5jb20uYXIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDUvY2F0LWNob3ct/MTguanBn" },
-  { id: 4, nombre: "Juguete ratón", precio: 3000, img: "https://imgs.search.brave.com/yfJfw-ZcA_OVpEsQQ2LPISoNJ0_MatxS3yhM_8VfzKo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/MzkxMTEtTUxBNDYz/ODIwOTA4MjRfMDYy/MDIxLVYud2VicA" }
+  { id: 4, nombre: "Juguete ratón", precio: 3000, img: "https://imgs.search.brave.com/yfJfw-ZcA_OVpEsQQ2LPISoNJ0_MatxS3yhM_8VfzKo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/MzkxMTEtTUxBNDYz/ODIwOTA4MjRfMDYy/MDIxLVYud2VicA" },
+  // Nuevos productos agregados
+  { id: 5, nombre: "Casa para gatos", precio: 45000, img: "https://i.ebayimg.com/thumbs/images/g/wAgAAOSwJv5m8o4v/s-l1200.jpg" },
+  { id: 6, nombre: "Shampoo antipulgas", precio: 12000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXRavsnGehmUgVbL76GXhZi2MWO39gJFdWw&s" },
+  { id: 7, nombre: "Cepillo masajeador", precio: 8000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOFAEeJ0lxEu3b6D_PzLFPBp2DHCSEWQ97Q&s" },
+  { id: 8, nombre: "Comedero automático", precio: 35000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc7Lf11yI1TCwiuSs8JwHBu8vqLs6822ZJBQ&s" },
+  { id: 9, nombre: "Transportadora premium", precio: 55000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6srZ3mzkOh2Mys-7E40EA4mfPib32EwFcg&s" },
+  { id: 10, nombre: "Juguete interactivo", precio: 15000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3I78CclJjZijY4_SzaXHlARfXTGVRWKknw&s" },
+  { id: 11, nombre: "Bebedero automático", precio: 28000, img: "https://kanu.pet/cdn/shop/files/colibri1.png?v=1742510097&width=533" }
 ];
 
 // === Estado del carrito ===
