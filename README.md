@@ -10,6 +10,10 @@ El presente proyecto trata de una página de ecommerce, centrada en la funcional
 *Vaciar carrito o confirmar compra.
 *Mostrar subtotal, descuento y total.
 *Aplicar códigos de descuento (porcentaje, monto fijo, mínimo requerido).
+-"OFF10":  10% de descuento
+-"SAVE200": 200 ARS de descuento
+-"PROMO50": 50% si gastás >= ARS 3000
+
 
 Estructura
 /
